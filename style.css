@@ -39,8 +39,9 @@ body{
 }
 
 .introBox{
-    height: 340px;
+    height: 480px;
     display: flex;
+
 }
 
 .introBox img{
@@ -77,4 +78,31 @@ body{
     justify-content: center;
     background-color: #1F2937;
     color: #E5E7EB;
+}
+
+.secTwo{
+    height: 480px;
+    text-align: center;
+}
+
+.imgHeader{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+.imgsContainer{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+.imgContainer{
+    width: 210px;
+}
+.smallimg{
+    border-style: solid;
+    border-color: #3882F6;
+    border-radius: 20px;
+    height: 200px;
+    width: 200px;
 }
