@@ -76,6 +76,8 @@ body{
     font-size: 20px;
 }
 
+/* Section 2 */
+
 .secTwo{
     height: 480px;
     text-align: center;
@@ -101,6 +103,7 @@ body{
     border-radius: 20px;
     height: 200px;
     width: 200px;
+    object-fit: cover;
 }
 
 /*Quote section */
