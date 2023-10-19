@@ -46,7 +46,6 @@ body{
 .introBox{
     height: 480px;
     display: flex;
-
 }
 
 .introBox img{
@@ -71,18 +70,10 @@ body{
     background-color: #3882F6;
     border-style: none;
     border-radius: 8px;
-    padding: 4px 26px;
+    padding: 8px 30px;
     color: #F9FAF8;
     font-weight: bold;
     font-size: 20px;
-}
-
-.footer{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #1F2937;
-    color: #E5E7EB;
 }
 
 .secTwo{
@@ -128,4 +119,60 @@ body{
     color: #1F2937;
     text-align: left;
     margin-bottom: 0;
+}
+
+/* Call to action */
+
+.callToActionSection {
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.actionBox{
+    background-color: #3882F6;
+    width: 65%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 45px 30px;
+}
+
+.actionBox button{
+    height: 35px;
+    width: 120px;
+    border-style: solid;
+    border-color: #E5E7EB;
+    border-width: 3px;
+    background-color: #3882F6;
+    border-radius: 5px;
+    color: #E5E7EB;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.actionBold{
+    font-weight: bold;
+    font-size: 20px;
+    color: #F9FAF8;
+    margin: 0;
+    margin-bottom: 3px;
+}
+
+.actionSub{
+    color: #E5E7EB;
+    margin: 0;
+}
+
+/* footer */
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 40px;
 }
